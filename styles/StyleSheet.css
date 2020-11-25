@@ -1,0 +1,56 @@
+﻿body
+{
+    background-color: #B0F0E7;
+}
+
+a:link 
+{ 
+    color: #ffd800;
+    text-align: center;
+    font-family: Arial;
+    /*font-weight: bolder;*/
+    font-size: 20px;
+}
+
+#wrapper
+{
+    width: 900px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#banner 
+{
+    width: 900px;
+    height: 100px;
+    /*background-image: url(../images/banner.jpg);*/ /*Preferred method for inserting images*/
+    background-color: #ff6a00;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#content
+{
+    background-color: #b6ff00;
+    width: 900px;
+    height: 700px;
+}
+
+#footer 
+{
+    background-color: #808080;
+    width: 900px;
+    height: 100px;
+}
+
+#div
+{
+    float: left;
+}
+
+input[type="range"]
+{
+    -webkit-appearance: none;
+    -webkit-border-radius: 10px;
+    background-image: -webkit-linear-gradient(top,black,white,black);
+}
